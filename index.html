@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chetan Sathe | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="icon" type="fevicon" href="assets/icon/portfolio.fevicon.img">
+</head>
+<body>
+
+  <!-- Dark/Light Mode Toggle -->
+  <button id="themeToggle">🌓</button>
+
+  
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li class="li1"><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li class="contact"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 class="h1">Chetan Sathe</h1>
+      <p  class="p1">Full Stack Developer | AI Enthusiast | Java Specialist</p>
+      <img class="img" src="assets/image/IMG-20240801-WA0026-removebg-preview (1).png" alt="profile">
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" data-aos="fade-up">
+    <div class="container">
+      <h2>About Me</h2>
+      <p class="p2">Hi! I'm Chetan Sathe, a passionate Full Stack Developer and AI 
+        Tools Specialist with a strong foundation in web development and Java programming.
+        I'm proficient in technologies like HTML, CSS, JavaScript, React.js, Node.js, MongoDB, 
+        and I’m also skilled with tools like Git, GitHub, Jira, and ChatGPT.
+        I love creating fast, responsive, and smart applications that solve real-world problems.
+        Currently, I'm working on my startup idea, the JustChill Queue Management App, aimed at improving queue systems in temples, hospitals, and more.
+        When I'm not coding, you'll find me writing, reading, traveling, or trekking—anything that sparks creativity and keeps me energized
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" data-aos="fade-up">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><img src="assets/image/images (1).png" alt="HTML"><p>HTML</p></div>
+        <div class="skill-card"><img src="assets/image/images (1)css.png" alt="CSS"><p>CSS</p></div>
+        <div class="skill-card"><img src="assets/image/javascript-logo-png.png" alt="JavaScript"><p>JavaScript</p></div>
+        <div class="skill-card"><img src="assets/image/react.js.png" alt="React"><p>React.js</p></div>
+        <div class="skill-card"><img src="assets/image/images (1).png" alt="Node"><p>MySQL</p></div>
+        <div class="skill-card"><img src="assets/image/mongodb.png" alt="MongoDB"><p>MongoDB</p></div>
+        <div class="skill-card"><img src="assets/image/java-logo-png_seeklogo-158094.png" alt="Java"><p>Java</p></div>
+        <div class="skill-card"><img src="assets/image/github.jpg" alt="github"><p>Git & GitHub</p></div>
+        <div class="skill-card"><img src="assets/image/spring.png" alt="Spring"><p>Spring framework</p></div>
+        <div class="skill-card"><img src="assets/image/spring-boot.png" alt="SpringBoot"><p>SpringBoot framework</p></div>
+        <div class="skill-card"><img src="assets/image/python.png" alt="Python"><p>Python</p></div>
+        <div class="skill-card"><img src="assets/image/Bootstrap_logo.svg" alt="Bootstrap_logo"><p>BootStrap</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" data-aos="fade-up">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="filters">
+        <button onclick="filterProjects('all')">All</button>
+        <button onclick="filterProjects('web')">Web</button>
+        <button onclick="filterProjects('ai')">AI</button>
+      </div>
+      <div class="project-gallery" id="projectGallery">
+        <div class="project-card web"><img src="assets/image/digimedia project.png" alt="Project 1"><h3>DigiMedia Digital Marketing Agency Web Aplication</h3></div>
+        <div class="project-card ai"><img src="assets/image/chatbot project.webp" alt="Project 2"><h3>AI ChatBot</h3></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" data-aos="fade-up">
+    <div class="container">
+      <h2>My Resume</h2>
+      <a href="assets/resume/Chetan_Sathe_Resume_2025.pdf.pdf" download class="resume-btn">📄 Download Resume</a>
+      <div class="resume-preview">
+        <div class="resume-box">
+          <h3>🎓 Education</h3>
+          <ul>
+            <li><strong>BSc Computer Science</strong> – CGPA 8.9</li>
+            <li>12th – Ekta More Patil Jr. College, Diganchi</li>
+            <li>10th – Achakdani Madhyamik Vidyalay (80.40%)</li>
+          </ul>
+        </div>
+        <div class="resume-box">
+          <h3>🏆 Achievements</h3>
+          <ul>
+            <li>Java fullstack development certificate by kiran academy</li>
+            <li>Cyber security add on course certificate by T.J. College Khadki</li>
+            <li>Participation certificate in web designing intercollegiate competition
+                S-CAPTCHA 2025 B.G. College Sangvi - Pune</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" data-aos="fade-up">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Message" required></textarea><br>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Scroll to Top -->
+  <button id="scrollTopBtn">⬆</button>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>

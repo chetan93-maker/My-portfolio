@@ -1,0 +1,228 @@
+:root {
+  --bg: #fff;
+  --text: #111;
+  --accent: #00bcd4;
+}
+
+body.dark {
+  --bg: #3e3737;
+  --text: #fff;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+.img{
+  margin-left: 800px;
+  margin-top: -290px;
+  background-color: #111;
+  border-radius: 200px;
+  box-shadow: 0 5px 20px 0 rgba(187, 7, 215, 0.739), 0 5px 20px 0 rgba(0, 0, 0, 5);
+}
+
+
+img:hover {
+  transform: scale(1.01);
+}
+
+.h1{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  text-align: left;
+  font-size: 80px;
+}
+
+.p1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  font-size: 30px;
+}
+header {
+  background-color: #00bcd4;
+  color: white;
+}
+
+.p2{
+  font-family: serif;
+  color: #7b5a79d7;
+  font-size: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: left;
+  gap: 30px;
+  list-style: none;
+  background: #222;
+  padding: 15px;
+  margin: 0;
+  font-size: 20px;
+}
+
+.li1{
+  margin-left: 20px;
+}
+
+.contact{
+  margin-left: 800px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Skills */
+#skills {
+  padding: 60px 20px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.skill-card {
+  width: 120px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
+
+.skill-card img {
+  width: 50px;
+  height: 50px;
+}
+
+.skill-card p {
+  margin-top: 10px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+/* Projects */
+.project-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  width: 300px;
+  background: #eee;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Resume */
+#resume {
+  padding: 60px 20px;
+}
+
+.resume-btn {
+  background: var(--accent);
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 20px 0;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.resume-btn:hover{
+    transform: scale(1.01);
+}
+
+.resume-preview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.resume-box {
+  background: rgba(49, 49, 49, 0.904);
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  color: rgb(92, 216, 216);
+  
+}
+.resume-box:hover {
+  transform: scale(1.01);
+}
+
+.resume-box h3 {
+  color: var(--accent);
+}
+
+.resume-box ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Contact */
+form input, form textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+form button {
+  padding: 10px 20px;
+  background: var(--accent);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Scroll & Theme Buttons */
+#scrollTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#themeToggle {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background: #444;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+}
