@@ -16,6 +16,46 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
+
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  /* Adjust the navigation */
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Make content stack vertically */
+  .content-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Ensure text doesn't overflow */
+  p, li {
+    word-wrap: break-word;
+  }
+}
+
+
+
+
+
 .container {
   max-width: 1000px;
   margin: auto;
