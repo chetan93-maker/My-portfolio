@@ -1,17 +1,19 @@
-// Theme toggle
-const toggle = document.getElementById("themeToggle");
-toggle.onclick = () => {
+document.getElementById("themeToggle").onclick = function () {
   document.body.classList.toggle("dark");
 };
 
-// Scroll to top
-const scrollBtn = document.getElementById("scrollTopBtn");
-window.onscroll = function () {
-  scrollBtn.style.display = window.scrollY > 200 ? "block" : "none";
-};
-scrollBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+document.getElementById("menu-toggle").addEventListener("click", function () {
+  document.getElementById("nav-links").classList.toggle("active");
+});
 
-// Filter Projects
+window.onscroll = function () {
+  document.getElementById("scrollTopBtn").style.display = window.scrollY > 200 ? "block" : "none";
+};
+
+document.getElementById("scrollTopBtn").onclick = function () {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
+
 function filterProjects(type) {
   const cards = document.querySelectorAll(".project-card");
   cards.forEach(card => {
@@ -19,7 +21,6 @@ function filterProjects(type) {
   });
 }
 
-// Contact Form
 document.getElementById("contactForm").addEventListener("submit", function (e) {
   e.preventDefault();
   alert("Message sent successfully!");
