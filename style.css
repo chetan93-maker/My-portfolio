@@ -143,7 +143,7 @@ header {
 .skill-card p {
   margin-top: 10px;
   font-weight: 600;
-  color: var(--text);
+  color: rgb(79, 88, 85);
   font-size: 16px;
 }
 
