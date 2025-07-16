@@ -28,7 +28,7 @@ A modern, responsive, and interactive personal portfolio website built using HTM
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript 
 - AOS Library for animations
 
 ---
@@ -36,10 +36,11 @@ A modern, responsive, and interactive personal portfolio website built using HTM
 ## 📁 Project Structure
 myportfolio/
 │
-├── index.html # Main HTML page
-├── style.css # Styling file
-├── script.js # JavaScript interactions
+├── index.html              # Main HTML page
+├── style.css               # Styling file
+├── script.js               # JavaScript interactions
 ├── assets/
-│ ├── image/ # Images used in the portfolio
-│ ├── icon/ # Favicon
-│ └── resume/ # Resume PDF file
+│   ├── image/              # Images used in the portfolio (skills, projects, profile, etc.)
+│   ├── icon/               # Favicon icon
+│   └── resume/             # Resume PDF file
+
