@@ -6,8 +6,8 @@ A modern, responsive, and interactive personal portfolio website built using HTM
 
 ## 🚀 Live Preview
 
-> *(Optional)* Add the deployed link here:  
-> `https://chetan-po.netlify.app/`
+>deployed link here:  
+> https://chetan-po.netlify.app/
 
 ---
 
