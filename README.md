@@ -39,8 +39,8 @@ myportfolio/
 ├── 1)index.html              # Main HTML page
 ├── 2)style.css               # Styling file
 ├── 3)script.js               # JavaScript interactions
-├── assets/
-│   ├── image/              # Images used in the portfolio (skills, projects, profile, etc.)
-│   ├── icon/               # Favicon icon
-│   └── resume/             # Resume PDF file
+├── 4)assets/
+│   ├── a)image/              # Images used in the portfolio (skills, projects, profile, etc.)
+│   ├── b)icon/               # Favicon icon
+│   └── c)resume/             # Resume PDF file
 
